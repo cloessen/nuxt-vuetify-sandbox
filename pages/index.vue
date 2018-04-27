@@ -28,3 +28,13 @@
     </v-flex>
   </v-layout>
 </template>
+
+
+<script>
+    export default {
+        name: 'index',
+        created () {
+            console.log('index created')
+        }
+    }
+</script>
