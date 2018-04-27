@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app >
     <v-navigation-drawer
       :mini-variant.sync="miniVariant"
       :clipped="clipped"
@@ -88,7 +88,8 @@
               fixed: false,
               items: [
                   { icon: 'apps', title: 'Welcome', to: '/' },
-                  { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' }
+                  { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' },
+                  { icon: 'web', title: 'Pages', to: '/posts' }
               ],
               miniVariant: false,
               right: true,

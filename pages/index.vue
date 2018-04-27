@@ -33,6 +33,14 @@
 <script>
     export default {
         name: 'index',
+        asyncData (context) {
+            console.log(context)
+        },
+        data () {
+            return {
+                neaData: 'newData'
+            }
+        },
         created () {
             console.log('index created')
         }
