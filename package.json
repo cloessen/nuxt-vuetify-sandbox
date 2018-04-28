@@ -11,7 +11,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "contentful": "^6.1.0",
     "nuxt": "^1.0.0",
+    "showdown": "^1.8.6",
     "vuetify": "^1.0.0"
   },
   "devDependencies": {
