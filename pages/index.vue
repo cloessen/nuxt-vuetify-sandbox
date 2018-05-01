@@ -40,9 +40,6 @@
             return {
                 neaData: 'newData'
             }
-        },
-        created () {
-            console.log('index created')
         }
     }
 </script>
